@@ -14,4 +14,4 @@ RUN ./mvnw clean package -DskipTests
 EXPOSE 8080
 
 # Run the jar file
-CMD ["java", "-jar", "target/faculty-substitution-0.0.1-SNAPSHOT.jar"]
+git add DockerfileCMD ["java", "-jar", "target/faculty-substitution-0.0.1-SNAPSHOT.jar"]
